@@ -325,6 +325,7 @@ a{
     position: relative;
     background: #98c1d9;
     margin-top: 35px;
+    overflow: hidden;
 }
 
 .dancer .jx .ppp{
@@ -337,7 +338,7 @@ a{
 
 .dancer .jx .ppp1{
     margin: 20px; 
- 
+    
 }
 
 .dancer .jx .box1{
@@ -445,12 +446,15 @@ a{
 
 .wordbox{
     padding-left: 7%;
+    padding-right: 8%;
     padding-top: 3%;
     height: 200px;
     width: auto;
     position: relative;
     background: #bfe5fb;
     margin-top: 35px;
+    overflow: hidden;
+
 }
 
 .wordbox .word1{
@@ -459,10 +463,10 @@ a{
 
 .wordbox .word2{
     font-size: 30%;
-    padding-right: 8%;
+   
     line-height: 200%;
     margin-top: 1%;
-
+    
 }
 .zx{
     height: 600px;

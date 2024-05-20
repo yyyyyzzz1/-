@@ -55,8 +55,10 @@
         <div class="common_title">
             <h3>生物工具</h3>
             <p>有关生物信息学和生命科学的软件工具、数据库和服务的基本科学和技术信息。</br></p>
-            <input placeholder="搜索工具 " style="flex-grow: 1; overflow: visible;">
-            <button>查询</button>
+            <form id = "myForm" action="http://ivbib4.natappfree.cc/get_es" target="_blank" method="get">
+                <input id = "myInput" name="搜索工具" type = text placeholder="搜索工具 " style="flex-grow: 1; overflow: visible;">
+                <button type="submit">查询</button>
+            </form>
         </div>
      
         <div class="jx">
@@ -155,3 +157,4 @@
     }
     setInterval(ChangeImg,2000);
 </script> -->
+<script src="./js/index.js"></script>
