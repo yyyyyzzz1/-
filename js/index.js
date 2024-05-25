@@ -71,7 +71,7 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
     const formData = new FormData(event.target);
     var inputValue = document.getElementById('myInput').value;
     var encodedValue = encodeURIComponent(inputValue);
-    const Url = 'http://7w4r5x.natappfree.cc/get_es/'+encodedValue;
+    const Url = 'http://ye96nz.natappfree.cc/get_es/'+encodedValue;
     var xhr = new XMLHttpRequest();
     xhr.open('GET',Url);
     xhr.onreadystatechange = function(){

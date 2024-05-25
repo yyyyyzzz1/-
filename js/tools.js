@@ -77,6 +77,14 @@ window.addEventListener('DOMContentLoaded', function() {
         PMID.className = 'PMID';
         // PMID.href = result.http;
         PMID.textContent = data.PMID;
+        
+        let match = data.PMID.match(/PMID: (\d+)/);  
+        let number = 0;
+        if (match && match.length > 1) {  
+            number = match[1]; // 第一个括号内的匹配内容（索引为1，因为索引0是整个匹配的内容）  
+            console.log(number); // 输出: 37042708  
+        }
+        PMID.href = 'https://pubmed.ncbi.nlm.nih.gov/'+number+'/';
 
         PMIDbox.appendChild(PMID);
         dataContainer.appendChild(PMIDbox);
