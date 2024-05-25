@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Index</title> 
-    <script src="./js/search.js"></script>
+    <title>tools</title> 
+    <script src="./js/tools.js"></script>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/tools.css">
    
 </head>
 <body>
@@ -47,23 +47,13 @@
                 </div>
         </div>
     </div>
-    
-    <div class="dataBox" id="search111">
-        
-        <!-- <div class="dataContainer">
-            <div class="toolname">toolbox</div>
-            <hr>
-            <div class="yellow">
-                <p>旧数据</p>
+    <div class="tContainer">
+            <div class="toolsBox" id="toolsBox">
+                
             </div>
-            <div class="blue">
-                <p class="blue"></p>
-            </div>
-            <div class="deepblue">
-                <p class="deepblue"></p>
-            </div>
-        </div> -->
+
     </div>
+   
 
     <div class="footer">
         <div class="footer_c inner_c">
@@ -115,47 +105,3 @@
 </body>
 
 </html>
-
-<!-- <script type="text/javascript">
-    var index=0;
-    //改变图片
-    function ChangeImg() {
-        index++;
-        var a=document.getElementsByClassName("abc");
-        var b=document.getElementsByClassName("def");
-        if(index>=a.length) index=0;
-        for(var i=0;i<a.length;i++){
-            a[i].style.display='none';
-            b[i].style.color="#FFF";
-        }
-        a[index].style.display='block';
-        b[index].style.color="#C78A49";
-    }
-    setInterval(ChangeImg,2000);
-
-    var otext = document.getElementById("text");
-    ose = document.querySelector("#search");
-    lis = document.getElementsByClassName("li1");
-    otext.onkeyup = function () {
-        ose.style.display = otext.value ? "block" : "none";
-        var osc = document.createElement("script");
-        osc.src = "https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=" + otext.value;
-        document.body.appendChild(osc);
-        if (event.keyCode == 13) {
-            window.location.href = "https://www.baidu.com/s?wd=" + otext.value
-        }
-    }
-    function iptShow(thisId) {
-        otext.value = arr[thisId].innerHTML;
-        window.location.href = "https://www.baidu.com/s?wd=" + otext.value
-    }
-
-    btn.onclick = function () {
-        var otext = document.getElementById("text").value;
-        if (otext == "" || otext == null) {
-            alert('请输入内容再查询');
-        } else {
-            window.location.href = "https://www.baidu.com/s?wd=" + otext
-        }
-    }
-</script> -->

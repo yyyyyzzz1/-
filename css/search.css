@@ -1,0 +1,123 @@
+
+
+.dataBox{
+    width:100%;
+    background-color: rgb(233, 231, 231);
+    height: 600px;
+    padding: 100px 0px;
+    position: relative;
+
+}
+
+.dataBox .dataContainer{
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    height: 200px;
+    width: auto;
+    position: relative;
+    background: #eef2f7;
+    border-radius: 2cqmin;
+    overflow: hidden;
+}
+
+
+.dataBox .toolname{
+    background-color: rgb(154, 154, 235);
+    border-radius: 10px;
+    width: 100px;
+    height: 20px;
+    padding: 8px;
+    text-align: center;
+    font-size: 15px;
+    overflow: hidden;
+}
+
+
+
+.dataBox .yellow{
+    margin-bottom: 10px;
+    height: 30px;
+    overflow: hidden;
+    position: relative;
+}
+
+.dataBox .yellow .yellowbox{
+    background-color: rgb(244, 247, 89);
+    border-radius: 10px;
+    width: 100px;
+    height: 22px;
+    
+    overflow: hidden;
+    margin-right: 10px;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+}
+
+
+.dataBox .yellow .yellow1{
+    font-size: 8px;
+    margin: 2px 2px;
+    font-weight: 500;
+}
+
+
+.dataBox .blue{
+    margin-bottom: 10px;
+    height: 30px;
+    overflow: hidden;
+    position: relative;
+}
+
+.dataBox .blue .bluebox{
+    background-color: rgb(105, 189, 248);
+    border-radius: 10px;
+    width: 100px;
+    height: 22px;
+    
+    overflow: hidden;
+    margin-right: 10px;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+}
+
+
+.dataBox .blue .blue1{
+    font-size: 8px;
+    margin: 2px 2px;
+    font-weight: 500;
+}
+
+
+
+.dataBox .deepblue{
+    margin-bottom: 10px;
+    height: 30px;
+    overflow: hidden;
+    position: relative;
+}
+
+.dataBox .deepblue .deepbluebox{
+    background-color: rgb(76, 125, 249);
+    border-radius: 10px;
+    width: 100px;
+    height: 22px;
+    
+    overflow: hidden;
+    margin-right: 10px;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+}
+
+
+.dataBox .deepblue .deepblue1{
+    font-size: 8px;
+    margin: 2px 2px;
+    font-weight: 500;
+}

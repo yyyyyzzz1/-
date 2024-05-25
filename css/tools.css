@@ -1,0 +1,21 @@
+.tContainer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(233, 231, 231);
+}
+
+.tContainer .toolsBox{
+   width: 94%;
+   height: 400px;
+   margin-top: 100px;
+   margin-left: 3%;
+   margin-right: 3%;
+   background: white;
+   overflow: hidden;
+}
+
+.toolsBox .toolname .toolh2{
+    font-size: 400px;
+}
