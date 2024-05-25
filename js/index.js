@@ -73,7 +73,7 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
     var encodedValue = encodeURIComponent(inputValue);
     const Url = 'http://ye96nz.natappfree.cc/get_es/'+encodedValue;
     var xhr = new XMLHttpRequest();
-    xhr.open('GET',Url);
+    xhr.open('GET',Url,true);
     xhr.onreadystatechange = function(){
         if(xhr.readyState == 4 && xhr.status == 200){
             console.log(xhr.responseText);
