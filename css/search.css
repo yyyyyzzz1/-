@@ -3,7 +3,7 @@
 .dataBox{
     width:100%;
     background-color: rgb(233, 231, 231);
-    height: 600px;
+    height: 800px;
     padding: 100px 0px;
     position: relative;
 
@@ -16,7 +16,7 @@
     margin-top: 3%;
     margin-left: 3%;
     margin-right: 3%;
-    height: 200px;
+    height: 180px;
     width: auto;
     position: relative;
     background: #eef2f7;

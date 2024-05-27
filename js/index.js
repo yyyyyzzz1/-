@@ -54,10 +54,10 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
     const formData = new FormData(event.target);
     var inputValue = document.getElementById('myInput').value;
     var encodedValue = encodeURIComponent(inputValue);
-    const Url = 'http://ye96nz.natappfree.cc/get_es/' + encodedValue;
+    const Url = 'http://ybt9dm.natappfree.cc/get_es/' + encodedValue;
   
     // 使用fetch发送GET请求
-    fetch(Url,{mode: 'no-cors'})
+    fetch(Url)
       .then(response => {
         if (!response.ok) {
           throw new Error('Network response was not ok ' + response.statusText);
